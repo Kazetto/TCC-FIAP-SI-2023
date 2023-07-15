@@ -1,0 +1,149 @@
+.tela-de-login,
+.tela-de-login * {
+  box-sizing: border-box;
+}
+.tela-de-login {
+  background: #ffffff;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+.background {
+  width: 2301px;
+  height: 1316px;
+  position: absolute;
+  left: -191px;
+  top: -72px;
+}
+.fundo-tela-login-cadastro {
+  background: #ffffff;
+  border-radius: 30px;
+  width: 1019px;
+  height: 625px;
+  position: absolute;
+  left: 439px;
+  top: 228px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.button-voltar {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-1 {
+  background: #1ccaca;
+  border-radius: 100px;
+  width: 73px;
+  height: 69px;
+  position: absolute;
+  left: 476px;
+  top: 256px;
+}
+.icon-arrow-left {
+  position: absolute;
+  left: 498px;
+  top: 276px;
+  overflow: visible;
+}
+.group-2 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-12 {
+  background: #1ccaca;
+  border-radius: 100px;
+  width: 222px;
+  height: 68.69px;
+  position: absolute;
+  left: 849px;
+  top: 719px;
+}
+.entrar {
+  color: #ffffff;
+  text-align: center;
+  font: 400 30px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 856px;
+  top: 717px;
+  width: 207px;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login {
+  color: #1ccaca;
+  text-align: left;
+  font: 600 40px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 900px;
+  top: 409px;
+}
+.esqueceu-sua-senha {
+  color: #1ccaca;
+  text-align: left;
+  font: 400 20px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 988px;
+  top: 647px;
+}
+.logo {
+  width: 350px;
+  height: 104px;
+  position: absolute;
+  left: 774px;
+  top: 273px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.usuario {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-2 {
+  background: #efeded;
+  border-radius: 44px;
+  width: 422px;
+  height: 52px;
+  position: absolute;
+  left: 749px;
+  top: 488px;
+}
+.usu-rio {
+  color: #7b7b7b;
+  text-align: left;
+  font: 400 20px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 771px;
+  top: 488px;
+  width: 129px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.senha {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-3 {
+  background: #efeded;
+  border-radius: 44px;
+  width: 422px;
+  height: 52px;
+  position: absolute;
+  left: 749px;
+  top: 586px;
+}
+.senha2 {
+  color: #7b7b7b;
+  text-align: left;
+  font: 400 20px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 771px;
+  top: 586px;
+  width: 129px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}

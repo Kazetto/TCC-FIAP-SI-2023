@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style/inicial.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="/javascript/cadastro.js"></script>
+    <title>TCC</title>
+</head>
+<body>
+    <div class="tela-de-cadastro-ou-login">
+       
+        <img class="background" src="/imagens/background.jpg" />
+      
+        <div class="fundo-tela-login-cadastro"></div>
+      
+        <div class="fundo-tela-login-cadastro-2"></div>
+      
+        <div class="bem-vindo">Bem Vindo!</div>
+      
+        <div class="acesse-sua-conta">Acesse sua conta</div>
+      
+        <div class="button-sign-in">
+          <div class="rectangle-1"></div>
+          <a href="/pages/login.html" class="sign-in">Sign in</a>
+
+        </div>
+      
+        <div class="button-criar">
+          <div class="rectangle-12"></div>
+      
+          <a href="/pages/tutorial.html" class="criar">Criar</a>
+        </div>
+      
+        <div class="crie-sua-conta">Crie sua conta</div>
+      
+        <div class="text-field-usuario">
+          
+          <div class="caixa-2">
+            <input type="text" name="text-field-usuario" class="tf-usuario" placeholder="Usuário" required>
+          </div>
+          
+        </div>
+      
+        <div class="text-field-senha">
+          <div class="caixa-3">
+            <input type="password" name="text-field-senha" id="senha" class="tf-senha" placeholder="Senha" required>
+            <button type="button" id="btnVisibilidade" class="btnVisibilidade" onclick="toggleVisibilidadeSenha()">
+              <i id="iconeVisibilidade" class="fas fa-eye"></i>
+            </button>
+          </div>
+        </div>
+      
+        <div class="text-field-email">
+          <div class="caixa-4">
+            <input type="email" id="email" name="text-field-email" class="campoEmail" placeholder="Email" oninput="validarEmail()" required>
+          </div>
+      
+          
+        </div>
+      
+        <div class="text-field-email-nov">
+          <div class="caixa-5">
+            <input type="email" id="confirmarEmail" name="text-field-email-nov" class="campoEmail" placeholder="Digita o seu email novamente" oninput="validarConfirmarEmail()" required>
+          </div>
+      
+          
+        </div>
+      </div>
+      
+</body>
+</html>

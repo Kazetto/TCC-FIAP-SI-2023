@@ -1,0 +1,295 @@
+.tela-de-cadastro-ou-login,
+.tela-de-cadastro-ou-login * {
+  box-sizing: border-box;
+}
+.tela-de-cadastro-ou-login {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+.background {
+  flex-shrink: 0;
+  width: 1920px;
+  height: 1098px;
+  position: relative;
+}
+.fundo-tela-login-cadastro {
+  background: #3b8ef0;
+  border-radius: 20px 0px 0px 20px;
+  flex-shrink: 0;
+  width: 608px;
+  height: 695px;
+  position: absolute;
+  left: 215px;
+  top: 192px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.fundo-tela-login-cadastro-2 {
+  background: #ffffff;
+  border-radius: 0px 20px 20px 0px;
+  flex-shrink: 0;
+  width: 745px;
+  height: 695px;
+  position: absolute;
+  left: 823px;
+  top: 192px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.bem-vindo {
+  color: #fffcfc;
+  text-align: center;
+  font: 800 48px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 328px;
+  top: 359px;
+  width: 418px;
+}
+.acesse-sua-conta {
+  color: #ffffff;
+  text-align: left;
+  font: 400 32px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 412px;
+  top: 418px;
+  width: 309px;
+  height: 50px;
+}
+.button-sign-in {
+  flex-shrink: 0;
+  width: 222px;
+  height: 85px;
+  position: static;
+}
+.tf-usuario {
+    width: 422px;
+    height: 52px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 20px;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+.tf-senha {
+  width: 422px;
+  height: 52px;
+  padding: 5px;
+  color: #333;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  font-size: 20px;
+}
+
+#btnVisibilidade {
+  margin-top: 10px;
+  position: relative;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+#iconeVisibilidade {
+  position: absolute;
+  top: 50%;
+  font-size: 20px;
+  transform: translate(-20%,-65%);
+  color: #777;
+}
+.campoEmail {
+  width: 422px;
+  height: 52px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  font-size: 20px;
+  color: #333;
+  background-color: #f4f4f4;
+}
+.campoEmail.invalido {
+  border: 1px solid red;
+}
+.confirmarEmail {
+  width: 422px;
+  height: 52px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  font-size: 20px;
+  color: #333;
+  background-color: #f4f4f4;
+}
+
+.rectangle-1 {
+  background: #1ccaca;
+  border-radius: 100px;
+  width: 222px;
+  height: 68.69px;
+  position: absolute;
+  left: 408px;
+  top: 621px;
+}
+.sign-in {
+  color: #ffffff;
+  text-align: center;
+  font: 400 30px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 413px;
+  top: 637px;
+  width: 207px;
+  height: 69px;
+}
+.button-criar {
+  flex-shrink: 0;
+  width: 222px;
+  height: 85px;
+  position: static;
+}
+.rectangle-12 {
+  background: #1ccaca;
+  border-radius: 100px;
+  width: 222px;
+  height: 68.69px;
+  position: absolute;
+  left: 1085px;
+  top: 745px;
+}
+.criar {
+  color: #ffffff;
+  text-align: center;
+  font: 400 30px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 1090px;
+  top: 761px;
+  width: 207px;
+  height: 69px;
+}
+.crie-sua-conta {
+  color: #3b8ef0;
+  text-align: center;
+  font: 700 48px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 949px;
+  top: 271px;
+  width: 493px;
+  height: 88px;
+}
+.text-field-usuario {
+  flex-shrink: 0;
+  width: 422px;
+  height: 52px;
+  position: static;
+}
+.caixa-2 {
+  background: #efeded;
+  border-radius: 30px;
+  width: 422px;
+  height: 52px;
+  position: absolute;
+  left: 985px;
+  top: 407px;
+}
+.usu-rio {
+  color: #888282;
+  text-align: left;
+  font: 400 20px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 1015px;
+  top: 407px;
+  width: 357px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text-field-senha {
+  flex-shrink: 0;
+  width: 422px;
+  height: 52px;
+  position: static;
+}
+.caixa-3 {
+  
+  border-radius: 30px;
+  width: 442px;
+  height: 52px;
+  position: absolute;
+  left: 985px;
+  top: 492px;
+}
+.senha {
+  color: #888282;
+  text-align: left;
+  font: 400 20px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 1009px;
+  top: 492px;
+  width: 357px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text-field-email {
+  flex-shrink: 0;
+  width: 422px;
+  height: 52px;
+  position: static;
+}
+.caixa-4 {
+  background: #efeded;
+  border-radius: 30px;
+  width: 422px;
+  height: 52px;
+  position: absolute;
+  left: 985px;
+  top: 573px;
+}
+.email {
+  color: #888282;
+  text-align: left;
+  font: 400 20px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 1009px;
+  top: 573px;
+  width: 357px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.text-field-email-nov {
+  flex-shrink: 0;
+  width: 422px;
+  height: 52px;
+  position: static;
+}
+.caixa-5 {
+  background: #efeded;
+  border-radius: 30px;
+  width: 422px;
+  height: 52px;
+  position: absolute;
+  left: 985px;
+  top: 664px;
+}
+.digite-novamente-seu-email {
+  color: #888282;
+  text-align: left;
+  font: 400 20px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 1009px;
+  top: 664px;
+  width: 357px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
