@@ -1,0 +1,127 @@
+.tela-de-esqueceu-sua-senha,
+.tela-de-esqueceu-sua-senha * {
+  box-sizing: border-box;
+}
+.tela-de-esqueceu-sua-senha {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+.background {
+  flex-shrink: 0;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+.fundo-tela-login-cadastro {
+  background: #ffffff;
+  border-radius: 30px;
+  flex-shrink: 0;
+  width: 1019px;
+  height: 625px;
+  position: absolute;
+  left: 436px;
+  top: 228px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.button-enviar {
+  flex-shrink: 0;
+  width: 222px;
+  height: 70.69px;
+  position: static;
+}
+.rectangle-1 {
+  background: #1ccaca;
+  border-radius: 100px;
+  width: 222px;
+  height: 68.69px;
+  position: absolute;
+  left: 838px;
+  top: 623px;
+}
+.enviar {
+  color: #ffffff;
+  text-align: center;
+  font: 400 30px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 845px;
+  top: 621px;
+  width: 207px;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-voltar {
+  flex-shrink: 0;
+  width: 73px;
+  height: 69px;
+  position: static;
+}
+.rectangle-12 {
+  background: #1ccaca;
+  border-radius: 100px;
+  width: 73px;
+  height: 69px;
+  position: absolute;
+  left: 462px;
+  top: 256px;
+}
+.icon-arrow-left {
+  position: absolute;
+  left: 484px;
+  top: 276px;
+  overflow: visible;
+}
+.esqueceu-sua-senha {
+  color: #1ccaca;
+  text-align: left;
+  font: 600 40px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 771px;
+  top: 409px;
+}
+.logo {
+  flex-shrink: 0;
+  width: 350px;
+  height: 104px;
+  position: absolute;
+  left: 774px;
+  top: 273px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.usuario {
+  flex-shrink: 0;
+  width: 630px;
+  height: 52px;
+  position: static;
+}
+.rectangle-2 {
+  background: #efeded;
+  border-radius: 44px;
+  width: 630px;
+  height: 52px;
+  position: absolute;
+  left: 645px;
+  top: 488px;
+}
+.email {
+  color: #7b7b7b;
+  text-align: left;
+  font: 400 20px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 677.84px;
+  top: 488px;
+  width: 192.58px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
