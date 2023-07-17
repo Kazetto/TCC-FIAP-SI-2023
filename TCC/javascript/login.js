@@ -16,7 +16,7 @@ function validarFormulario(event) {
       //alert("Formulário válido. Usuário: " + usuario + ", Senha: " + senha);
   
       // Redirecionar para a próxima página após a validação bem-sucedida
-      window.location.href = "/pages/configuracao.html";
+      window.location.href = "/pages/menu.html";
     }
 }
   

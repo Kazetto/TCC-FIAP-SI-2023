@@ -1,0 +1,165 @@
+.tela-de-configura-o,
+.tela-de-configura-o * {
+  box-sizing: border-box;
+}
+.tela-de-configura-o {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+  overflow: hidden;
+}
+.background {
+  flex-shrink: 0;
+  width: 2301px;
+  height: 1316px;
+  position: relative;
+}
+.fundo-tela-login-cadastro {
+  background: #3b8ef0;
+  border-radius: 20px 0px 0px 20px;
+  flex-shrink: 0;
+  width: 632px;
+  height: 813px;
+  position: absolute;
+  left: 201px;
+  top: 134px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.fundo-tela-login-cadastro-2 {
+  background: #ffffff;
+  border-radius: 0px 20px 20px 0px;
+  flex-shrink: 0;
+  width: 951px;
+  height: 813px;
+  position: absolute;
+  left: 833px;
+  top: 134px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.button-raio-x {
+  flex-shrink: 0;
+  width: 401px;
+  height: 62px;
+  position: static;
+}
+.rectangle-1 {
+  background: #1ccaca;
+  border-radius: 100px;
+  width: 401px;
+  height: 60.25px;
+  position: absolute;
+  left: 316px;
+  top: 510.75px;
+}
+.enviar-arquivos {
+  color: #ffffff;
+  text-align: center;
+  font: 400 30px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 328.64px;
+  top: 509px;
+  width: 373.91px;
+  height: 60.51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button-voltar {
+  flex-shrink: 0;
+  width: 73px;
+  height: 69px;
+  position: static;
+}
+.rectangle-12 {
+  background: #1ccaca;
+  border-radius: 100px;
+  width: 73px;
+  height: 69px;
+  position: absolute;
+  left: 243px;
+  top: 161px;
+}
+.icon-arrow-left {
+  position: absolute;
+  left: 265px;
+  top: 181px;
+  overflow: visible;
+}
+.imagem-cancer-pulmao-1 {
+  border-radius: 133px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 10px;
+  flex-shrink: 0;
+  width: 513px;
+  height: 308px;
+  position: absolute;
+  left: 1052px;
+  top: 278px;
+}
+.group-2 {
+  flex-shrink: 0;
+  width: 222px;
+  height: 70.69px;
+  position: static;
+}
+.rectangle-13 {
+  background: #1ccaca;
+  border-radius: 100px;
+  width: 222px;
+  height: 68.69px;
+  position: absolute;
+  left: 1460px;
+  top: 822px;
+}
+.proximo {
+  color: #ffffff;
+  text-align: center;
+  font: 400 30px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 1467px;
+  top: 820px;
+  width: 207px;
+  height: 69px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.exemplo {
+  color: #000000;
+  text-align: center;
+  font: 400 30px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 851px;
+  top: 195px;
+  width: 331px;
+  height: 59px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.rectangle-10 {
+  background: #d9d9d9;
+  border-radius: 11px;
+  flex-shrink: 0;
+  width: 609px;
+  height: 22px;
+  position: absolute;
+  left: 991px;
+  top: 629px;
+}
+.rectangle-11 {
+  background: #d9d9d9;
+  border-radius: 11px;
+  flex-shrink: 0;
+  width: 415px;
+  height: 19px;
+  position: absolute;
+  left: 991px;
+  top: 675px;
+}

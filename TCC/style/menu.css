@@ -1,0 +1,176 @@
+.tela-de-menu,
+.tela-de-menu * {
+  box-sizing: border-box;
+}
+.tela-de-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  position: relative;
+
+}
+.background {
+  flex-shrink: 0;
+  width: 1920px;
+  height: 1080px;
+  position: relative;
+}
+.fundo-tela-login-cadastro {
+  background: #3b8ef0;
+  border-radius: 20px 0px 0px 20px;
+  flex-shrink: 0;
+  width: 529px;
+  height: 695px;
+  position: absolute;
+  left: 215px;
+  top: 192px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.fundo-tela-login-cadastro-2 {
+  background: #ffffff;
+  border-radius: 0px 20px 20px 0px;
+  flex-shrink: 0;
+  width: 813px;
+  height: 695px;
+  position: absolute;
+  left: 744px;
+  top: 192px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.button-hist {
+  flex-shrink: 0;
+  width: 401px;
+  height: 60.51px;
+  position: static;
+}
+.rectangle-2 {
+  background: #1ccaca;
+  border-radius: 100px;
+  width: 401px;
+  height: 60.25px;
+  position: absolute;
+  left: 950px;
+  top: 600px;
+}
+.hist-rico-de-exames {
+  background: none;
+  text-align: center;
+  font: 400 30px "Roboto Flex", sans-serif;
+  position: absolute;
+  border: none;
+  border-radius: 30px;
+  left: 952px;
+  top: 600px;
+  width: 400px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.button-raio-x {
+  flex-shrink: 0;
+  width: 401px;
+  height: 62px;
+  position: static;
+}
+.rectangle-1 {
+  background: #1ccaca;
+  border-radius: 100px;
+  width: 401px;
+  height: 60.25px;
+  position: absolute;
+  left: 950px;
+  top: 428.75px;
+}
+.carregar-exames {
+  background:none ;
+  cursor: pointer;
+  border-radius: 30px;
+  border: none;
+  text-align: center;
+  font: 400 30px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 952.64px;
+  top: 427px;
+  width: 400px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button:hover {
+    background-color: #149191;
+  }
+
+.button-sair {
+  flex-shrink: 0;
+  width: 401px;
+  height: 61.25px;
+  position: static;
+}
+.rectangle-12 {
+  background: #1ccaca;
+  border-radius: 100px;
+  width: 401px;
+  height: 60.25px;
+  position: absolute;
+  left: 284px;
+  top: 759px;
+}
+.sair {
+  color: #ffffff;
+  text-align: center;
+  font: 400 30px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 298px;
+  top: 758px;
+  width: 373.91px;
+  height: 60.51px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bem-vindo-ao-radia {
+  color: #fffcfc;
+  text-align: center;
+  font: 800 48px "Roboto Flex", sans-serif;
+  position: absolute;
+  left: 350px;
+  top: 255px;
+  width: 270px;
+}
+.button-info {
+  flex-shrink: 0;
+  width: 83px;
+  height: 82px;
+  position: static;
+}
+.group-7 {
+  width: 83px;
+  height: 82px;
+  position: static;
+}
+.rectangle-13 {
+  background: #1ccaca;
+  border-radius: 100px;
+  width: 83px;
+  height: 82px;
+  position: absolute;
+  left: 1443px;
+  top: 217px;
+}
+.icon-info-empty {
+  position: absolute;
+  left: 1449px;
+  top: 222px;
+  overflow: visible;
+}
+.icon-user {
+  flex-shrink: 0;
+  position: absolute;
+  left: 406px;
+  top: 489px;
+  overflow: visible;
+}

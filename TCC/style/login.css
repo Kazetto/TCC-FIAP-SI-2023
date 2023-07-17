@@ -92,6 +92,10 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #149191;
 }
 .login {
   color: #1ccaca;
