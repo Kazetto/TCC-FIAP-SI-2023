@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Menu - Finbest</title>
+    <meta name="description" content="Description of the website" />
+    <meta property="og:title" content="Menu - Finbest" />
+    <meta property="og:description" content="Description of the website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-gray-black);
+        background-color: var(--dl-color-gray-white);
+
+      }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
+      data-tag="font"
+    />
+    <!--This is the head section-->
+    <!-- <style> ... </style> -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div>
+      <script
+        type="text/javascript"
+        src="https://unpkg.com/dangerous-html/dist/default/lib.umd.js"
+      ></script>
+      <link href="./menu.css" rel="stylesheet" />
+
+      <div class="menu-container">
+        <nav class="navbar-navbar navbar-root-class-name">
+          <div class="navbar-desktop">
+            <div class="navbar-main">
+              <div class="navbar-branding">
+                <img
+                  alt="image"
+                  src="public/radia-1500h.png"
+                  class="navbar-image"
+                />
+              </div>
+              <div class="navbar-links">
+                <a href="index.html" class="link"><span>Home</span></a>
+                <a href="#como_funcionar" class="navbar-link1 link">
+                  <span>Como funciona</span>
+                </a>
+                <a href="#faq" class="navbar-link2 link"><span>FAQ</span></a>
+                <a href="sobre-nos.html" class="link"><span>Sobre nós</span></a>
+              </div>
+            </div>
+            <div class="navbar-quick-actions">
+              <a href="index.html" class="link navbar-log-in">Log in</a>
+              <a href="index.html" class="navbar-navlink">
+                <div class="navbar-sign-up-btn">
+                  <span class="navbar-sign-up">Sign up</span>
+                </div>
+              </a>
+              <img
+                id="open-mobile-menu"
+                alt="pastedImage"
+                src="public/pastedimage-8o98.svg"
+                class="navbar-hamburger-menu"
+              />
+            </div>
+          </div>
+          <div id="mobile-menu" class="navbar-mobile">
+            <div class="navbar-top">
+              <a href="index.html" class="navbar-navlink1">
+                <img
+                  alt="image"
+                  src="public/radia-1500h.png"
+                  class="navbar-image1"
+                />
+              </a>
+              <svg
+                id="close-mobile-menu"
+                viewBox="0 0 1024 1024"
+                class="navbar-icon"
+              >
+                <path
+                  d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+                ></path>
+              </svg>
+            </div>
+            <div class="navbar-links1">
+              <a href="index.html" class="navbar-link4"><span>Home</span></a>
+              <a href="#como_funcionar" class="navbar-link5">
+                <span>Como funciona</span>
+              </a>
+              <a href="#faq" class="navbar-link6"><span>FAQ</span></a>
+              <a href="sobre-nos.html" class="navbar-link7">
+                <span>Sobre nós</span>
+              </a>
+              <div class="navbar-buttons">
+                <a href="index.html" class="navbar-navlink2">
+                  <div class="navbar-btn">
+                    <span class="navbar-text"><span>Log in</span></span>
+                  </div>
+                </a>
+                <a href="index.html" class="navbar-navlink3">
+                  <div class="navbar-btn1">
+                    <span class="navbar-text1"><span>Sign up</span></span>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <dangerous-html
+              html=" <script>
+    /*
+    Mobile menu - Code Embed
+    */
+
+    // Mobile menu
+    const mobileMenu = document.querySelector('#mobile-menu');
+
+    // Buttons
+    const closeButton = document.querySelector('#close-mobile-menu');
+    const openButton = document.querySelector('#open-mobile-menu');
+
+    if (mobileMenu &amp;&amp; closeButton &amp;&amp; openButton) {
+      // On openButton click, set the mobileMenu position left to -100vw
+      openButton.addEventListener('click', function () {
+        mobileMenu.style.transform = 'translateX(0%)';
+      });
+
+      // On closeButton click, set the mobileMenu position to 0vw
+      closeButton.addEventListener('click', function () {
+        mobileMenu.style.transform = 'translateX(100%)';
+      });
+    }
+  </script>"
+            ></dangerous-html>
+          </div>
+        </nav>
+        <div class="menu1-container menu1-root-class-name">
+          <div class="menu1-features">
+            <h1 class="menu1-text">Exames</h1>
+            <div class="menu1-container1">
+              <div
+                class="feature-card1-feature-card feature-card1-root-class-name"
+              >
+                <h2 class="feature-card1-heading">
+                  <span>Tumor do Pulmão</span>
+                </h2>
+                <img
+                  alt="image"
+                  src="https://images.unsplash.com/photo-1616012480717-fd9867059ca0?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDF8fHJhZGlvZ3JhZmlhfGVufDB8fHx8MTY5MDIyMDQ0NHww&amp;ixlib=rb-4.0.3&amp;w=200"
+                  class="feature-card1-image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-footer footer-root-class-name">
+          <div class="footer-content">
+            <div class="footer-information">
+              <div class="footer-heading">
+                <img
+                  alt="pastedImage"
+                  src="public/radia-white-500h.png"
+                  class="footer-pasted-image"
+                />
+                <span class="footer-text">
+                  <span>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  </span>
+                </span>
+              </div>
+              <div class="footer-socials">
+                <div class="social-social social-root-class-name">
+                  <img
+                    alt="pastedImage"
+                    src="public/pastedimage-9nha.svg"
+                    class="social-insider"
+                  />
+                </div>
+                <div class="social-social social-root-class-name1">
+                  <img
+                    alt="pastedImage"
+                    src="public/pastedimage-k0l6.svg"
+                    class="social-insider"
+                  />
+                </div>
+                <div class="social-social social-root-class-name2">
+                  <img
+                    alt="pastedImage"
+                    src="public/pastedimage-ld65.svg"
+                    class="social-insider"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="footer-links">
+              <div class="footer-column">
+                <span class="footer-header"><span>Solutions</span></span>
+                <span class="footer-link">
+                  <span>Responsive Web Design</span>
+                </span>
+                <span class="footer-link1">
+                  <span>Responsive Prototypes</span>
+                </span>
+              </div>
+              <div class="footer-column1">
+                <span class="footer-header1"><span>Company</span></span>
+                <span class="footer-link2"><span>About</span></span>
+                <span class="footer-link3"><span>Team</span></span>
+                <span class="footer-link4"><span>News</span></span>
+              </div>
+            </div>
+          </div>
+          <span class="footer-text1">
+            <span>© 2022 finbest. All Rights Reserved.</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
