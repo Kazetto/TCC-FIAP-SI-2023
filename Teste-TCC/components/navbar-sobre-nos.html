@@ -1,0 +1,112 @@
+<div>
+  <script
+    type="text/javascript"
+    src="https://unpkg.com/dangerous-html/dist/default/lib.umd.js"
+  ></script>
+  <link href="./navbar-sobre-nos.css" rel="stylesheet" />
+  <nav class="navbar-sobre-nos-navbar">
+    <div class="navbar-sobre-nos-desktop">
+      <div class="navbar-sobre-nos-main">
+        <div class="navbar-sobre-nos-branding">
+          <a href="index.html" class="navbar-sobre-nos-navlink">
+            <img
+              alt="image"
+              src="public/radia-1500h.png"
+              class="navbar-sobre-nos-image"
+            />
+          </a>
+        </div>
+        <div class="navbar-sobre-nos-links">
+          <a href="index.html" class="link"><span>Home</span></a>
+          <a href="sobre-nos.html" class="link"><span>Sobre nós</span></a>
+        </div>
+      </div>
+      <div class="navbar-sobre-nos-quick-actions">
+        <a href="login.html" class="link navbar-sobre-nos-log-in">Log in</a>
+        <a href="cadastrar.html" class="navbar-sobre-nos-navlink1">
+          <div class="navbar-sobre-nos-sign-up-btn">
+            <span class="navbar-sobre-nos-sign-up">Sign up</span>
+          </div>
+        </a>
+        <img
+          id="open-mobile-menu"
+          alt="pastedImage"
+          src="public/pastedimage-8o98.svg"
+          class="navbar-sobre-nos-hamburger-menu"
+        />
+      </div>
+    </div>
+    <div id="mobile-menu" class="navbar-sobre-nos-mobile">
+      <div class="navbar-sobre-nos-top">
+        <a href="index.html" class="navbar-sobre-nos-navlink2">
+          <img
+            alt="image"
+            src="public/radia-1500h.png"
+            class="navbar-sobre-nos-image1"
+          />
+        </a>
+        <svg
+          id="close-mobile-menu"
+          viewBox="0 0 1024 1024"
+          class="navbar-sobre-nos-icon"
+        >
+          <path
+            d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+          ></path>
+        </svg>
+      </div>
+      <div class="navbar-sobre-nos-links1">
+        <a href="index.html" class="navbar-sobre-nos-link2">
+          <span>Home</span>
+        </a>
+        <a href="#como_funcionar" class="navbar-sobre-nos-link3">
+          <span>Como funciona</span>
+        </a>
+        <a href="#faq" class="navbar-sobre-nos-link4"><span>FAQ</span></a>
+        <a href="sobre-nos.html" class="navbar-sobre-nos-link5">
+          <span>Sobre nós</span>
+        </a>
+        <div class="navbar-sobre-nos-buttons">
+          <a href="index.html" class="navbar-sobre-nos-navlink3">
+            <div class="navbar-sobre-nos-btn">
+              <span class="navbar-sobre-nos-text"><span>Log in</span></span>
+            </div>
+          </a>
+          <a href="index.html" class="navbar-sobre-nos-navlink4">
+            <div class="navbar-sobre-nos-btn1">
+              <span class="navbar-sobre-nos-text1"><span>Sign up</span></span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <dangerous-html
+        html=" <script>
+    /*
+    Mobile menu - Code Embed
+    */
+
+    // Mobile menu
+    const mobileMenu = document.querySelector('#mobile-menu');
+
+    // Buttons
+    const closeButton = document.querySelector('#close-mobile-menu');
+    const openButton = document.querySelector('#open-mobile-menu');
+
+    if (mobileMenu && closeButton && openButton) {
+      // On openButton click, set the mobileMenu position left to -100vw
+      openButton.addEventListener('click', function () {
+        mobileMenu.style.transform = 'translateX(0%)';
+      });
+
+      // On closeButton click, set the mobileMenu position to 0vw
+      closeButton.addEventListener('click', function () {
+        mobileMenu.style.transform = 'translateX(100%)';
+      });
+    }
+  </script>"
+      ></dangerous-html>
+    </div>
+  </nav>
+</div>

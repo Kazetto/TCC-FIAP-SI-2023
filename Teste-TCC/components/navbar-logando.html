@@ -1,0 +1,117 @@
+<div>
+  <script
+    type="text/javascript"
+    src="https://unpkg.com/dangerous-html/dist/default/lib.umd.js"
+  ></script>
+  <link href="./navbar-logando.css" rel="stylesheet" />
+  <nav class="navbar-logando-navbar">
+    <div class="navbar-logando-desktop">
+      <div class="navbar-logando-main">
+        <div class="navbar-logando-branding">
+          <a href="menu.html" class="navbar-logando-navlink">
+            <img
+              alt="image"
+              src="public/radia-1500h.png"
+              class="navbar-logando-image"
+            />
+          </a>
+        </div>
+        <div class="navbar-logando-links">
+          <a href="index.html" class="link"><span>Home</span></a>
+          <a href="#como_funcionar" class="navbar-logando-link1 link">
+            <span>Como funciona</span>
+          </a>
+          <a href="relatrio.html" class="navbar-logando-link2 link">
+            <span>Relátorio</span>
+          </a>
+          <a href="menu.html" class="navbar-logando-link3 link">
+            <span>Exames</span>
+          </a>
+        </div>
+      </div>
+      <div class="navbar-logando-quick-actions">
+        <a href="index.html" class="navbar-logando-navlink1">
+          <div class="navbar-logando-sign-up-btn">
+            <span class="navbar-logando-sign-up">Sair</span>
+          </div>
+        </a>
+        <img
+          id="open-mobile-menu"
+          alt="pastedImage"
+          src="public/pastedimage-8o98.svg"
+          class="navbar-logando-hamburger-menu"
+        />
+      </div>
+    </div>
+    <div id="mobile-menu" class="navbar-logando-mobile">
+      <div class="navbar-logando-top">
+        <a href="index.html" class="navbar-logando-navlink2">
+          <img
+            alt="image"
+            src="public/radia-1500h.png"
+            class="navbar-logando-image1"
+          />
+        </a>
+        <svg
+          id="close-mobile-menu"
+          viewBox="0 0 1024 1024"
+          class="navbar-logando-icon"
+        >
+          <path
+            d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
+          ></path>
+        </svg>
+      </div>
+      <div class="navbar-logando-links1">
+        <a href="index.html" class="navbar-logando-link4"><span>Home</span></a>
+        <a href="#como_funcionar" class="navbar-logando-link5">
+          <span>Como funciona</span>
+        </a>
+        <a href="#faq" class="navbar-logando-link6"><span>FAQ</span></a>
+        <a href="sobre-nos.html" class="navbar-logando-link7">
+          <span>Sobre nós</span>
+        </a>
+        <div class="navbar-logando-buttons">
+          <a href="index.html" class="navbar-logando-navlink3">
+            <div class="navbar-logando-btn">
+              <span class="navbar-logando-text"><span>Log in</span></span>
+            </div>
+          </a>
+          <a href="index.html" class="navbar-logando-navlink4">
+            <div class="navbar-logando-btn1">
+              <span class="navbar-logando-text1"><span>Sign up</span></span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div>
+      <dangerous-html
+        html=" <script>
+    /*
+    Mobile menu - Code Embed
+    */
+
+    // Mobile menu
+    const mobileMenu = document.querySelector('#mobile-menu');
+
+    // Buttons
+    const closeButton = document.querySelector('#close-mobile-menu');
+    const openButton = document.querySelector('#open-mobile-menu');
+
+    if (mobileMenu && closeButton && openButton) {
+      // On openButton click, set the mobileMenu position left to -100vw
+      openButton.addEventListener('click', function () {
+        mobileMenu.style.transform = 'translateX(0%)';
+      });
+
+      // On closeButton click, set the mobileMenu position to 0vw
+      closeButton.addEventListener('click', function () {
+        mobileMenu.style.transform = 'translateX(100%)';
+      });
+    }
+  </script>"
+      ></dangerous-html>
+    </div>
+  </nav>
+</div>

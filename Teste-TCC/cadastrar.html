@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Error - RADIA</title>
+    <title>Cadastrar - RADIA</title>
     <meta name="description" content="Description of the website" />
-    <meta property="og:title" content="Error - RADIA" />
+    <meta property="og:title" content="Cadastrar - RADIA" />
     <meta property="og:description" content="Description of the website" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
@@ -46,124 +46,74 @@
   </head>
   <body>
     <div>
-      <script
-        type="text/javascript"
-        src="https://unpkg.com/dangerous-html/dist/default/lib.umd.js"
-      ></script>
-      <link href="./404.css" rel="stylesheet" />
+      <link href="./cadastrar.css" rel="stylesheet" />
 
-      <div class="error-container">
-        <nav class="navbar-navbar navbar-root-class-name1">
-          <div class="navbar-desktop">
-            <div class="navbar-main">
-              <div class="navbar-branding">
-                <a href="index.html" class="navbar-navlink">
-                  <img
-                    alt="image"
-                    src="public/radia-1500h.png"
-                    class="navbar-image"
-                  />
-                </a>
-              </div>
-              <div class="navbar-links">
-                <a href="index.html" class="link"><span>Home</span></a>
-                <a href="#como_funcionar" class="navbar-link1 link">
-                  <span>Como funciona</span>
-                </a>
-                <a href="#faq" class="navbar-link2 link"><span>FAQ</span></a>
-                <a href="sobre-nos.html" class="link"><span>Sobre nós</span></a>
-              </div>
-            </div>
-            <div class="navbar-quick-actions">
-              <a href="login.html" class="link navbar-log-in">Log in</a>
-              <a href="cadastrar.html" class="navbar-navlink1">
-                <div class="navbar-sign-up-btn">
-                  <span class="navbar-sign-up">Sign up</span>
-                </div>
-              </a>
-              <img
-                id="open-mobile-menu"
-                alt="pastedImage"
-                src="public/pastedimage-8o98.svg"
-                class="navbar-hamburger-menu"
-              />
-            </div>
+      <div class="cadastrar-container">
+        <div class="cadastrar-features">
+          <a href="index.html" class="cadastrar-navlink">
+            <img
+              src="public/radia-1000h.png"
+              alt="image"
+              class="cadastrar-image"
+            />
+          </a>
+          <h1 class="cadastrar-text">
+            <span>Bem Vindo ao RAD</span>
+            <span class="cadastrar-text2">IA</span>
+          </h1>
+          <div class="cadastrar-container1">
+            <input
+              type="text"
+              placeholder="placeholder"
+              id="usuario"
+              name="usuario"
+              required=""
+              value="Usuário"
+              class="cadastrar-textinput input"
+            />
+            <input
+              type="email_user"
+              placeholder="placeholder"
+              id="email_user"
+              name="email_user"
+              required=""
+              value="Digite seu email"
+              class="cadastrar-textinput1 input"
+            />
+            <input
+              type="password"
+              placeholder="placeholder"
+              value="Digitar sua senha"
+              name="password_user"
+              id="password_user"
+              required=""
+              maxlength="50"
+              minlength="5"
+              class="cadastrar-textinput2 input"
+            />
+            <input
+              type="password"
+              placeholder="placeholder"
+              value="password_again"
+              name="password_again"
+              id="password_again"
+              required=""
+              maxlength="50"
+              minlength="5"
+              class="cadastrar-textinput3 input"
+            />
+            <a href="login.html" class="cadastrar-navlink1 button">
+              <span>
+                <span class="cadastrar-text4">Criar</span>
+                <br />
+              </span>
+            </a>
           </div>
-          <div id="mobile-menu" class="navbar-mobile">
-            <div class="navbar-top">
-              <a href="index.html" class="navbar-navlink2">
-                <img
-                  alt="image"
-                  src="public/radia-1500h.png"
-                  class="navbar-image1"
-                />
-              </a>
-              <svg
-                id="close-mobile-menu"
-                viewBox="0 0 1024 1024"
-                class="navbar-icon"
-              >
-                <path
-                  d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"
-                ></path>
-              </svg>
-            </div>
-            <div class="navbar-links1">
-              <a href="index.html" class="navbar-link4"><span>Home</span></a>
-              <a href="#como_funcionar" class="navbar-link5">
-                <span>Como funciona</span>
-              </a>
-              <a href="#faq" class="navbar-link6"><span>FAQ</span></a>
-              <a href="sobre-nos.html" class="navbar-link7">
-                <span>Sobre nós</span>
-              </a>
-              <div class="navbar-buttons">
-                <a href="index.html" class="navbar-navlink3">
-                  <div class="navbar-btn">
-                    <span class="navbar-text"><span>Log in</span></span>
-                  </div>
-                </a>
-                <a href="index.html" class="navbar-navlink4">
-                  <div class="navbar-btn1">
-                    <span class="navbar-text1"><span>Sign up</span></span>
-                  </div>
-                </a>
-              </div>
-            </div>
+          <div class="cadastrar-container2">
+            <div class="cadastrar-container3"></div>
           </div>
-          <div>
-            <dangerous-html
-              html=" <script>
-    /*
-    Mobile menu - Code Embed
-    */
-
-    // Mobile menu
-    const mobileMenu = document.querySelector('#mobile-menu');
-
-    // Buttons
-    const closeButton = document.querySelector('#close-mobile-menu');
-    const openButton = document.querySelector('#open-mobile-menu');
-
-    if (mobileMenu &amp;&amp; closeButton &amp;&amp; openButton) {
-      // On openButton click, set the mobileMenu position left to -100vw
-      openButton.addEventListener('click', function () {
-        mobileMenu.style.transform = 'translateX(0%)';
-      });
-
-      // On closeButton click, set the mobileMenu position to 0vw
-      closeButton.addEventListener('click', function () {
-        mobileMenu.style.transform = 'translateX(100%)';
-      });
-    }
-  </script>"
-            ></dangerous-html>
-          </div>
-        </nav>
-        <div class="error-container1">
-          <h1 class="error-text">Error 404 - Page not found</h1>
         </div>
-        <div class="footer-footer footer-root-class-name1">
+        <div class="footer-footer footer-root-class-name9">
           <div class="footer-content">
             <div class="footer-information">
               <div class="footer-heading">
